@@ -1,0 +1,9 @@
+[web-sso]
+aws_sso_url = <URL to Active Directory or other SSO landing with tenant ID details to AWS>
+user = <Your email address>
+pwd = <Your password for SSO>
+
+[aws]
+role_arn = <aws arn for the role you want to assume>
+principal_arn = <aws arn for SAML provider IDP>
+region_name = <aws region name>
